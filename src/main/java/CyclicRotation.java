@@ -1,10 +1,10 @@
 public class CyclicRotation {
     public int[] rotateArray(int[] array, int k){
-     int[] roratedArray = new int[array.length];
+     int[] rotedArray = new int[array.length];
         for (int i=0; i<array.length; i++){
-            roratedArray[i] = array[(k+i) %array.length];
+            rotedArray[i] = array[(k+i) %array.length];
         }
-        return roratedArray;
+        return rotedArray;
     }
 
     public static void main(String[] args) {
